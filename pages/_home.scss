@@ -1,0 +1,63 @@
+.expdeluxe{
+    float: right;
+    width: 80%;
+    background-color: #2B2B2B;
+}
+
+.starexpdeluxe{
+    margin: 20px;
+    color: #E4A752;
+}
+
+.expdeluxedesc{
+    font-family: "PT Sans", sans-serif;
+    font-weight: bold;
+    margin-top: 1em;
+    letter-spacing: 5px;
+    color: white;
+    font-weight: lighter;
+    margin: 20px;
+    text-transform: uppercase;
+}
+
+.expdeluxetext{
+    font-family: "PT Sans", sans-serif;
+    color: #797979;
+    margin: 20px;
+    width: 50%;
+}
+
+.gridback{
+    margin: 20px;
+    height: 20em;
+    width: 60%;
+    float: right;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 30px;
+    background-size: cover;
+}
+
+.image1{
+    background-image: url(images/8.jpg);
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 4;
+    width: 100%;
+    background-size: cover;
+    background-position: bottom;
+    float: left;
+}
+
+.image2{
+    background-image: url(images/2.jpg);
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 100%;
+    background-size: cover;
+    background-position: right;
+}
