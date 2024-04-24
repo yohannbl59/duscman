@@ -1,0 +1,27 @@
+input{
+    background-color: transparent;
+    color: #797979;
+    font-size: 1em;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: solid 1px;
+}
+
+textarea{
+    font-size: 1.2em;
+    background-color: transparent;
+    color: #797979;
+    max-width: 95%;
+    min-width: 95%;
+    width: 95%;
+    border: none;
+    border-bottom: solid 1px;
+    height: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form{
+    width: 90%;
+}

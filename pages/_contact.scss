@@ -1,0 +1,94 @@
+.sectioncontact{
+    width: 80%;
+    float: right;
+    background-color: #222222;
+}
+
+.premierepartie{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.duscman{
+    font-family: "PT Sans", sans-serif;
+    color: #797979;
+    grid-column: 1;
+    margin: 20px;
+    h1 {
+        font-family: "PT", serif;
+        font-weight: bold;
+        margin-top: 1em;
+        letter-spacing: 5px;
+        color: white;
+        font-weight: lighter;
+        margin: 20px;
+        text-transform: uppercase;
+      }
+}
+
+.restonsencontact{
+    grid-column: 2;
+    margin: 20px;
+    font-family: "PT", serif;
+    font-weight: bold;
+    margin-top: 1em;
+    color: white;
+    font-weight: lighter;
+    margin: 20px;
+    text-transform: uppercase;
+    h1 {
+        font-family: "PT", serif;
+        font-weight: bold;
+        margin-top: 1em;
+        letter-spacing: 5px;
+        color: white;
+        font-weight: lighter;
+        margin: 20px;
+        text-transform: uppercase;
+      }
+}
+
+
+.infoscontact{
+    display: grid;
+    grid-template-rows: 10% 10% 10%;
+    gap: 20px;
+    margin-top: 2em;
+}
+
+.boxinfos1{
+    grid-row: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.boxinfos2{
+    grid-row: 2;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.boxinfos3{
+    grid-row: 3;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.fa-envelope{
+    font-size: 40px;
+    color: #AA8453;
+}
+
+.fa-location-dot{
+    font-size: 40px;
+    color: #AA8453;
+}
+
+.icon{
+    width: 40px;
+    display: inline-block;
+    margin-right: 20px;
+}
