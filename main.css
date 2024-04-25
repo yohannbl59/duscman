@@ -557,7 +557,7 @@ em {
 .img4 {
   grid-column-start: 1;
   grid-column-end: 4;
-  background-image: url(images/3.jpg);
+  background-image: url(images/4.jpg);
   width: 100%;
   height: 20em;
   background-size: cover;
@@ -566,7 +566,7 @@ em {
 .img5 {
   grid-column-start: 4;
   grid-column-end: 7;
-  background-image: url(images/3.jpg);
+  background-image: url(images/5.jpg);
   width: 100%;
   height: 20em;
   background-size: cover;
@@ -681,19 +681,20 @@ em {
 /* debut de la deuxième section */
 .section2 {
   background-color: #222222;
-  color: white;
   width: 80%;
-  float: right;
+  padding-left: 20%;
 }
 
 .restaurant {
   display: flex;
   flex-direction: row;
   background-color: #2B2B2B;
+  margin-left: 146px;
+  margin-right: 146px;
 }
 
 .restaurant img {
-  width: 52%;
+  width: 53.3%;
 }
 
 ul {
@@ -709,6 +710,7 @@ li {
 
 .decouverte, .experience, .epanouissement, .experience2 {
   color: #AA8453;
+  margin-bottom: 20px;
 }
 
 .titre {
@@ -720,10 +722,12 @@ li {
   display: flex;
   flex-direction: row;
   background-color: #2B2B2B;
+  margin-left: 146px;
+  margin-right: 146px;
 }
 
 .bien-être img {
-  width: 53.5%;
+  width: 53.3%;
 }
 
 .experience {
@@ -737,10 +741,12 @@ li {
   display: flex;
   flex-direction: row;
   background-color: #2B2B2B;
+  margin-left: 146px;
+  margin-right: 146px;
 }
 
 .fitness img {
-  width: 52%;
+  width: 53.3%;
 }
 
 .epanouissement {
@@ -754,10 +760,12 @@ li {
   display: flex;
   flex-direction: row;
   background-color: #2B2B2B;
+  margin-left: 146px;
+  margin-right: 146px;
 }
 
 .aquatique img {
-  width: 53.5%;
+  width: 53.3%;
 }
 
 .experience2 {
@@ -769,7 +777,6 @@ li {
 }
 
 .button {
-  display: flex;
   background-color: #AA8453;
   color: white;
   width: auto;
@@ -778,6 +785,26 @@ li {
   border: none;
   cursor: pointer;
   font-size: 20px;
-  text-transform: uppercase; /* Texte en majuscules */
-  float: left;
+  text-transform: uppercase;
+  margin-top: 20px;
+  font-weight: lighter;
+}
+
+.titreresto {
+  font-size: 2em;
+  font-family: "Barlow", serif;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.texteresto {
+  font-size: 1em;
+  font-family: "Barlow", Sans-serif;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  width: 80%;
+  margin-bottom: 20px;
+  color: #797979;
 }/*# sourceMappingURL=main.css.map */
