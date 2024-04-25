@@ -1,3 +1,4 @@
+@charset "UTF-8";
 footer {
   background-color: #1B1B1B;
 }
@@ -201,13 +202,16 @@ header {
   margin: 0;
 }
 
+.navigateur {
+  position: fixed;
+}
+
 nav {
   background-color: #1B1B1B;
   width: 20%;
   height: 100em;
   font-family: "PT Sans", sans-serif;
   font-weight: lighter;
-  position: absolute;
 }
 
 .logo-nav {
@@ -273,6 +277,12 @@ nav a {
 
 .infos {
   color: #797979;
+}
+
+#accroche {
+  color: white;
+  letter-spacing: 3px;
+  font-size: 1em;
 }
 
 .sectioncontact {
@@ -431,4 +441,343 @@ nav a {
   width: 100%;
   background-size: cover;
   background-position: right;
+}
+
+.pt-sans-regular {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pt-sans-bold {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  background-color: #222222;
+  font-family: "PT Sans";
+}
+
+h1,
+h3 {
+  color: white;
+}
+
+.grop {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  border-color: rgb(240, 235, 235);
+  gap: 20px;
+  width: 80%;
+  float: right;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.options {
+  grid-column: 1;
+  width: 200px;
+  color: #797979;
+}
+
+.petit-dej {
+  background-color: #2b2b2b;
+  grid-columns: 2;
+  color: #797979;
+  padding-left: 30px;
+}
+
+.coffre {
+  background-color: #2b2b2b;
+  color: #797979;
+  grid-column: 3;
+  padding-left: 30px;
+}
+
+span {
+  color: #AA8453;
+  font-size: 200%;
+}
+
+i {
+  padding-right: 10px;
+}
+
+em {
+  color: #AA8453;
+  font-size: 125%;
+}
+
+.section1 {
+  background-color: #1E1E1E;
+  width: 80%;
+  padding-left: 20%;
+}
+
+.partie1 {
+  display: grid;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+  grid-template-rows: 0.5fr 0.5fr;
+  gap: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 146px;
+  margin-right: 146px;
+}
+
+.img1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  background-image: url(images/1.jpg);
+  width: 100%;
+  height: 40em;
+  background-size: cover;
+}
+
+.img2 {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  background-image: url(images/2.jpg);
+  width: 100%;
+  height: 40em;
+  background-size: cover;
+}
+
+.img3 {
+  grid-column-start: 5;
+  grid-column-end: 7;
+  background-image: url(images/3.jpg);
+  width: 100%;
+  height: 40em;
+  background-size: cover;
+}
+
+.img4 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  background-image: url(images/3.jpg);
+  width: 100%;
+  height: 20em;
+  background-size: cover;
+}
+
+.img5 {
+  grid-column-start: 4;
+  grid-column-end: 7;
+  background-image: url(images/3.jpg);
+  width: 100%;
+  height: 20em;
+  background-size: cover;
+}
+
+.reserver1 {
+  padding: 2%;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  border-width: 1px;
+  text-transform: uppercase;
+  float: right;
+  letter-spacing: 4px;
+  rotate: -90deg;
+  font-weight: lighter;
+  margin-top: 15%;
+  float: right;
+}
+
+.reserver2 {
+  padding: 2%;
+  border-style: solid;
+  border-color: white;
+  color: white;
+  border-width: 1px;
+  text-transform: uppercase;
+  float: right;
+  letter-spacing: 4px;
+  rotate: -90deg;
+  font-weight: lighter;
+  margin-top: 10%;
+  float: right;
+}
+
+.prix {
+  font-family: "Barlow", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.2em;
+  color: white;
+  font-weight: 100;
+  margin: 10px;
+}
+
+.nom {
+  font-family: "Barlow", serif;
+  font-size: 2em;
+  color: white;
+  font-weight: thin;
+  font-weight: 100;
+  margin: 10px;
+  letter-spacing: 2px;
+  width: 100%;
+}
+
+.prixnom1 {
+  width: 100%;
+  background-position: bottom;
+  height: 39em;
+  margin-top: 35em;
+}
+
+.prixnom2 {
+  width: 100%;
+  background-position: bottom;
+  height: 39em;
+  margin-top: 15em;
+}
+
+/* mise en forme des images */
+.une {
+  grid-column: 1/3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25em;
+  height: 35em;
+}
+
+.deux {
+  grid-column: 3/5;
+  width: 25em;
+  height: 35em;
+}
+
+.trois {
+  grid-column: 5/7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 25em;
+  height: 35em;
+}
+
+.quatre {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  width: 40em;
+  height: 20em;
+}
+
+.cinq {
+  grid-column-start: 4;
+  grid-column-end: 7;
+  width: 40em;
+  height: 20em;
+}
+
+/* fin de la mise en forme des images */
+/*fin de la première section*/
+/* debut de la deuxième section */
+.section2 {
+  background-color: #222222;
+  color: white;
+  width: 80%;
+  float: right;
+}
+
+.restaurant {
+  display: flex;
+  flex-direction: row;
+  background-color: #2B2B2B;
+}
+
+.restaurant img {
+  width: 52%;
+}
+
+ul {
+  width: 50%;
+  margin-top: 5em;
+}
+
+li {
+  margin: 25px 20px;
+  list-style-type: none;
+  font-size: 17px;
+}
+
+.decouverte, .experience, .epanouissement, .experience2 {
+  color: #AA8453;
+}
+
+.titre {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.bien-être {
+  display: flex;
+  flex-direction: row;
+  background-color: #2B2B2B;
+}
+
+.bien-être img {
+  width: 53.5%;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.fitness {
+  display: flex;
+  flex-direction: row;
+  background-color: #2B2B2B;
+}
+
+.fitness img {
+  width: 52%;
+}
+
+.epanouissement {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 53.5%;
+}
+
+.aquatique {
+  display: flex;
+  flex-direction: row;
+  background-color: #2B2B2B;
+}
+
+.aquatique img {
+  width: 53.5%;
+}
+
+.experience2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #2B2B2B;
+  width: 50%;
+}
+
+.button {
+  display: flex;
+  background-color: #AA8453;
+  color: white;
+  width: 80%;
+  height: 50px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  text-transform: uppercase; /* Texte en majuscules */
+  float: right;
 }/*# sourceMappingURL=main.css.map */

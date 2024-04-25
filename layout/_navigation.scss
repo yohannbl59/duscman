@@ -2,13 +2,16 @@
     margin: 0;
 }
 
+.navigateur{
+    position: fixed;
+}
+
 nav{
     background-color: #1B1B1B;
     width: 20%;
     height: 100em;
     font-family: "PT Sans", sans-serif;
     font-weight: lighter;
-    position: absolute;
 }
 
 .logo-nav{
@@ -74,4 +77,10 @@ nav a{
 
 .infos{
     color: #797979;
+}
+
+#accroche{
+    color: white;
+    letter-spacing: 3px;
+    font-size: 1em;
 }
