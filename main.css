@@ -209,9 +209,10 @@ header {
 nav {
   background-color: #1B1B1B;
   width: 20%;
-  height: 100em;
+  height: 110em;
   font-family: "PT Sans", sans-serif;
   font-weight: lighter;
+  position: absolute;
 }
 
 .logo-nav {
@@ -283,6 +284,100 @@ nav a {
   color: white;
   letter-spacing: 3px;
   font-size: 1em;
+}
+
+aside {
+  width: 18%;
+  float: right;
+  margin-top: -950px;
+  font-family: "Montserrat", Arial, sans-serif;
+  color: #FFF;
+}
+aside h3 {
+  padding: 10px;
+}
+aside ul {
+  list-style: none;
+}
+aside ul i {
+  color: #AA8453;
+}
+aside ul li {
+  color: #797979;
+  font-size: x-small;
+  padding: 10px;
+}
+
+.Chambre_Deluxe {
+  margin-left: 20%;
+  width: 80%;
+  background-color: #222222;
+  color: #797979;
+  float: right;
+}
+.Chambre_Deluxe .instructions, .Chambre_Deluxe .description, .Chambre_Deluxe .check {
+  width: 80%;
+  padding: 30px;
+}
+.Chambre_Deluxe h3, .Chambre_Deluxe p, .Chambre_Deluxe h4, .Chambre_Deluxe ul {
+  margin: 10px;
+}
+.Chambre_Deluxe h1, .Chambre_Deluxe h2, .Chambre_Deluxe h3, .Chambre_Deluxe h4 {
+  color: #FFF;
+  padding: 10px;
+}
+.Chambre_Deluxe .photo-chambre {
+  display: flex;
+  align-items: center;
+}
+.Chambre_Deluxe .text-over {
+  text-align: center;
+  padding-left: 30%;
+  position: absolute;
+  justify-content: center;
+}
+.Chambre_Deluxe .text-over i {
+  color: #AA8453;
+}
+.Chambre_Deluxe .text-over h2 {
+  font-family: sans-serif;
+  letter-spacing: 0.3em;
+  font-weight: 100;
+}
+.Chambre_Deluxe .text-over h1 {
+  font-size: 100px;
+  font-family: serif;
+  font-weight: 80;
+  letter-spacing: 0.3em;
+}
+.Chambre_Deluxe .description .Ducsman-gold {
+  color: #AA8453;
+}
+.Chambre_Deluxe .description h1, .Chambre_Deluxe .description h5 {
+  letter-spacing: 0.7em;
+}
+.Chambre_Deluxe .check {
+  display: flex;
+  flex-direction: row;
+}
+.Chambre_Deluxe .check i {
+  color: #AA8453;
+  padding-right: 10px;
+}
+.Chambre_Deluxe .check h2, .Chambre_Deluxe .check p {
+  padding: 10px;
+}
+
+button {
+  background-color: rgb(61, 60, 60);
+  color: #FFF;
+  border: none;
+  cursor: pointer;
+  padding: 15px 32px;
+  margin-left: 30px;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.08em;
 }
 
 .sectioncontact {

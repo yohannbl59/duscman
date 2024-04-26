@@ -1,0 +1,107 @@
+aside {
+    width: 18%;
+    float: right;
+    margin-top: -950px;
+
+    font-family: 'Montserrat', Arial, sans-serif; 
+    h3 {
+        padding: 10px;
+    }
+    ul {
+        list-style: none;
+        i {
+            color: $text-gold;
+        }
+        li {
+            color: $text-lightgray;
+            font-size: x-small;
+            padding: 10px;
+ 
+        }
+    }
+    color: $text-white;  
+}
+
+
+.Chambre_Deluxe {
+    margin-left: 20%;
+    width: 80%;
+    background-color: $bg-gray;
+    color: $text-lightgray;
+    float: right;
+
+ // Taille et spacement pour les textes de la page
+    .instructions , .description, .check {
+        width: 80%;
+        padding: 30px;
+    }
+    h3, p, h4, ul {
+        margin: 10px;
+    }   
+    h1, h2, h3, h4 {
+        color: $text-white;  
+        padding: 10px;
+    } 
+    
+    .photo-chambre {
+        display: flex;
+ //       justify-content: center;
+        align-items: center;  
+
+    }
+    .text-over {
+        text-align: center;
+        padding-left: 30%;
+        position: absolute;
+        justify-content: center;
+        i {
+            color: $text-gold;
+        }
+        h2 {
+            font-family: sans-serif;
+            letter-spacing: 0.3em;
+            font-weight: 100;
+        }
+        h1 {
+            font-size: 100px;
+            font-family: serif;
+            font-weight: 80;
+            letter-spacing: 0.3em;
+        }
+
+    }
+    // Style pour les titre de la partie description de la chambre
+    .description {
+        .Ducsman-gold {
+            color: $text-gold;    
+        }
+        h1, h5 {
+            letter-spacing: 0.7em; 
+        }
+    }
+    // Style pour text la partie check-in check-out de la chambre
+    .check {
+        display: flex;
+        flex-direction: row;
+        i {
+            color: $text-gold;
+            padding-right: 10px;
+        }
+        h2 , p {
+            padding: 10px;
+        }
+    }
+
+}
+
+button {
+    background-color:rgb(61, 60, 60);
+    color: $text-white;
+    border: none;
+    cursor: pointer;
+    padding: 15px 32px;
+    margin-left: 30px;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.08em;
+}
