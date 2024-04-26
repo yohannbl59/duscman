@@ -560,6 +560,16 @@ h3 {
   color: white;
 }
 
+.chetsuites {
+  font-size: 2em;
+  font-family: "Barlow", serif;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  margin-bottom: 10px;
+  color: white;
+  margin-left: 2%;
+}
+
 .grop {
   display: grid;
   grid-template-columns: 300px 300px 300px;
@@ -902,4 +912,64 @@ li {
   width: 80%;
   margin-bottom: 20px;
   color: #797979;
+}
+
+h1,
+h3 {
+  color: white;
+  font-family: "Gilda Display";
+  font-weight: 100;
+}
+
+.grop {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-color: rgb(240, 235, 235);
+  gap: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.options {
+  grid-column: 1;
+  width: 200px;
+  color: #797979;
+}
+
+.petit-dej {
+  background-color: #2b2b2b;
+  grid-columns: 2;
+  color: #797979;
+  padding-left: 30px;
+}
+
+.coffre {
+  background-color: #2b2b2b;
+  color: #797979;
+  grid-column: 3;
+  padding-left: 30px;
+}
+
+span {
+  color: #AA8453;
+  font-size: 250%;
+  font-family: "Gilda Display";
+  font-weight: 100;
+}
+
+i {
+  padding-right: 10px;
+}
+
+em {
+  color: #AA8453;
+  font-size: 115%;
+  font-style: normal;
+}
+
+.duscman {
+  letter-spacing: 0.3em;
+  margin-top: 20px;
+  color: #E4A752;
+  margin-left: 2%;
 }/*# sourceMappingURL=main.css.map */
