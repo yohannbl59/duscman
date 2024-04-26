@@ -234,6 +234,12 @@ nav {
   font-size: 3em;
 }
 
+#nomcontact {
+  font-family: "PT", serif;
+  color: #AA8453;
+  font-size: 3em;
+}
+
 nav ul {
   color: #797979;
   text-transform: uppercase;
@@ -391,13 +397,13 @@ button {
   grid-template-columns: 1fr 1fr;
 }
 
-.duscman {
+.duscmancontact {
   font-family: "PT Sans", sans-serif;
   color: #797979;
   grid-column: 1;
   margin: 20px;
 }
-.duscman h1 {
+.duscmancontact h1 {
   font-family: "PT", serif;
   font-weight: bold;
   margin-top: 1em;
