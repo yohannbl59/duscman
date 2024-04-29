@@ -98,7 +98,7 @@ nav a{
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1080px) {
     iframe{
     width: 100%;
     }
@@ -113,7 +113,7 @@ nav a{
         flex-direction: column;
     }
 
-    nav{
+    nav ul{
         display: none;
     }
 
@@ -156,4 +156,42 @@ nav a{
     .fa-phone-volume{
         font-size: 2em;
     }
+}
+
+
+@media screen and (min-width: 429px)
+{
+    .menu-burger{display: none;}
+}
+    
+
+@media screen and (max-width: 428px) {
+    .navigateur {
+       position: absolute;
+       background-color: aqua;
+       width: 100%;
+       height: 100vh;
+    }
+    .menu-burger{
+        display: block;
+    }
+    .navigateur ul{
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 3px 0;
+    transition: transform 0.3s, opacity 0.3s;
 }

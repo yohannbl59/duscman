@@ -13,6 +13,11 @@
 <body>
 
     <nav class="navigateur">
+        <div class="menu-toggle" id="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
         <div class="logo-nav">
             <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
             <br>
@@ -39,44 +44,55 @@
 
     </nav>
 
-<!-- DEBUT CAROUSSEL -->
-<section>
-<div class="carousel">
+ <!-- DEBUT CAROUSEL -->
+
+ <div class="carousel">
     <input type="radio" name="images" id="i1" checked>
     <input type="radio" name="images" id="i2">
     <input type="radio" name="images" id="i3">
     <input type="radio" name="images" id="i4">
     <input type="radio" name="images" id="i5">
 
+
     <div class="slide_img" id="one">
-        <img src="images/accueil.png">
+        <img src="images/accueil.png" alt="accueil">
         <label for="i5" class="prev"><span class="chevron">&#10096;</span></label>
         <label for="i2" class="next"><span class="chevron">&#10097;</span></label>
     </div>
     <div class="slide_img" id="two">
-        <img src="images/aqua.jpg">
+        <img src="images/aqua.jpg" alt="aqua">
         <label for="i1" class="prev"><span class="chevron">&#10096;</span></label>
         <label for="i3" class="next"><span class="chevron">&#10097;</span></label>
     </div>
     <div class="slide_img" id="three">
-        <img src="images/resto.jpg">
+        <img src="images/resto.jpg" alt="resto">
         <label for="i2" class="prev"><span class="chevron">&#10096;</span></label>
         <label for="i4" class="next"><span class="chevron">&#10097;</span></label>
     </div>
     <div class="slide_img" id="four">
-        <img src="images/sdp.jpg">
+        <img src="images/sdp.jpg" alt="sdp">
         <label for="i3" class="prev"><span class="chevron">&#10096;</span></label>
         <label for="i5" class="next"><span class="chevron">&#10097;</span></label>
     </div>
     <div class="slide_img" id="five">
-        <img src="images/spa.jpg">
+        <img src="images/spa.jpg" alt="spa">
         <label for="i4" class="prev"><span class="chevron">&#10096;</span></label>
         <label for="i1" class="next"><span class="chevron">&#10097;</span></label>
     </div>
 </div>
+
+<div class="backdesc">
+    <div class="desc">
+        <div class="star"><i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
+                class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+        </div>
+        <div class="theme">Hôtel de luxe à Paris</div>
+        <h1 class="accroche">L'expérience<br> du luxe</h1><br><br>
+        <button class="head">CHAMBRES & SUITES</button>
+    </div>
 </div>
-</section>
-<!-- FIN CAROUSSEL --> 
+
+<!-- FIN CAROUSSEL -->
 
     <div class="expdeluxe">
         <div class="gridback">
