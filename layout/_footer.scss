@@ -65,9 +65,8 @@ footer {
     }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 428px) {
     .foot{
-        display: flex;
         flex-direction: column;
 
         .footer-apropos, .footer-contact{

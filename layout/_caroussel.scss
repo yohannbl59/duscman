@@ -127,3 +127,9 @@
   }
   
   /* FIN CAROUSSEL */
+
+  @media screen and (max-width: 428px) {
+    .carousel{
+      display: none;
+    }
+  }
