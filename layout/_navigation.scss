@@ -98,7 +98,7 @@ nav a{
 }
 
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 900px) {
     iframe{
     width: 100%;
     }
@@ -113,7 +113,7 @@ nav a{
         flex-direction: column;
     }
 
-    nav ul{
+    nav{
         display: none;
     }
 

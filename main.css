@@ -308,7 +308,7 @@ nav a {
   font-size: 1em;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 900px) {
   iframe {
     width: 100%;
   }
@@ -320,7 +320,7 @@ nav a {
     display: flex;
     flex-direction: column;
   }
-  nav ul {
+  nav {
     display: none;
   }
   .logo-nav {
@@ -1126,4 +1126,26 @@ em {
   margin-top: 20px;
   color: #E4A752;
   margin-left: 2%;
+}
+
+.navigateur .menu-burger {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 200px;
+  width: 50px;
+}
+
+@media screen and (max-width: 900px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  .navigateur {
+    display: none;
+    margin: 0;
+  }
+}
+.navigateur .menu-burger {
+  display: block;
 }/*# sourceMappingURL=main.css.map */
