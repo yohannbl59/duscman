@@ -3,7 +3,7 @@ footer {
 }
 .foot {
     float: right;
-    width: 80%;
+    width: 100%;
     background-color: $bg-gray;
     color: $text-lightgray;
     display: flex;
@@ -65,12 +65,14 @@ footer {
     }
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 420px) {
     .foot{
         display: flex;
         flex-direction: column;
+
         .footer-apropos, .footer-contact{
             width: 100%;
+
         }
     }
     
