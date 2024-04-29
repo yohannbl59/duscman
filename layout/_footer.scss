@@ -64,3 +64,14 @@ footer {
         color:$text-lightgray;
     }
 }
+
+@media screen and (max-width: 1080px) {
+    .foot{
+        display: flex;
+        flex-direction: column;
+        .footer-apropos, .footer-contact{
+            width: 100%;
+        }
+    }
+    
+}

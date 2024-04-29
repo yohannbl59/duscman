@@ -65,6 +65,15 @@ footer {
   color: #797979;
 }
 
+@media screen and (max-width: 1080px) {
+  .foot {
+    display: flex;
+    flex-direction: column;
+  }
+  .foot .footer-apropos, .foot .footer-contact {
+    width: 100%;
+  }
+}
 input {
   background-color: transparent;
   color: #797979;
@@ -155,6 +164,8 @@ header {
   text-transform: uppercase;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  z-index: 3;
 }
 
 .desc {
@@ -246,6 +257,11 @@ nav ul {
   margin-top: 5em;
 }
 
+nav a:hover {
+  text-decoration: none;
+  color: white;
+}
+
 nav li {
   list-style: none;
   margin-top: 2em;
@@ -292,14 +308,65 @@ nav a {
   font-size: 1em;
 }
 
+@media screen and (max-width: 1080px) {
+  iframe {
+    width: 100%;
+  }
+  .sectioncontact {
+    display: flex;
+    flex-direction: column;
+  }
+  .premierepartie {
+    display: flex;
+    flex-direction: column;
+  }
+  nav ul {
+    display: none;
+  }
+  .logo-nav {
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-family: "PT Sans", sans-serif;
+    color: #AA8453;
+    margin-top: 3em;
+  }
+  .tel {
+    margin-top: 5em;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+  #nom {
+    font-size: 2em;
+  }
+  #accroche {
+    font-size: 0.6em;
+  }
+  .num {
+    font-size: 1em;
+  }
+  .fa-phone-volume {
+    font-size: 2em;
+  }
+}
 .carousel {
   margin: 0 auto;
-  margin-top: 20px;
   position: relative;
   width: 80%;
-  height: 0;
+  height: 5em;
   margin-left: 20%;
   padding-bottom: 40%;
+  transition: 2s;
+  z-index: 2;
 }
 
 .slide_img {
@@ -307,7 +374,7 @@ nav a {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-size: cover;
+  transition: 2s;
 }
 
 .slide_img img {
@@ -327,6 +394,7 @@ nav a {
   z-index: 1;
   cursor: pointer;
   margin-top: 300px;
+  transition: 1s;
 }
 
 .prev {
@@ -341,6 +409,7 @@ nav a {
   color: white;
   font-size: 100px;
   opacity: 90%;
+  transition: 1s;
 }
 
 #i1:checked ~ #one,
@@ -354,7 +423,7 @@ nav a {
 aside {
   width: 18%;
   float: right;
-  margin-top: -950px;
+  margin-top: -1065px;
   font-family: "Montserrat", Arial, sans-serif;
   color: #FFF;
 }
@@ -369,8 +438,8 @@ aside ul i {
 }
 aside ul li {
   color: #797979;
-  font-size: x-small;
-  padding: 10px;
+  font-size: 1em;
+  padding: 5px;
 }
 
 .Chambre_Deluxe {
@@ -381,7 +450,7 @@ aside ul li {
   float: right;
 }
 .Chambre_Deluxe .instructions, .Chambre_Deluxe .description, .Chambre_Deluxe .check {
-  width: 80%;
+  width: 70%;
   padding: 30px;
 }
 .Chambre_Deluxe h3, .Chambre_Deluxe p, .Chambre_Deluxe h4, .Chambre_Deluxe ul {
@@ -424,6 +493,7 @@ aside ul li {
 .Chambre_Deluxe .check {
   display: flex;
   flex-direction: row;
+  gap: 30%;
 }
 .Chambre_Deluxe .check i {
   color: #AA8453;
@@ -654,7 +724,6 @@ h3 {
 
 .petit-dej {
   background-color: #2b2b2b;
-  grid-columns: 2;
   color: #797979;
   padding-left: 30px;
 }
@@ -684,6 +753,7 @@ em {
   background-color: #1E1E1E;
   width: 80%;
   padding-left: 20%;
+  float: right;
 }
 
 .partie1 {
@@ -704,6 +774,7 @@ em {
   width: 100%;
   height: 40em;
   background-size: cover;
+  cursor: pointer;
 }
 
 .img2 {
@@ -713,6 +784,7 @@ em {
   width: 100%;
   height: 40em;
   background-size: cover;
+  cursor: pointer;
 }
 
 .img3 {
@@ -722,6 +794,7 @@ em {
   width: 100%;
   height: 40em;
   background-size: cover;
+  cursor: pointer;
 }
 
 .img4 {
@@ -731,6 +804,7 @@ em {
   width: 100%;
   height: 20em;
   background-size: cover;
+  cursor: pointer;
 }
 
 .img5 {
@@ -740,6 +814,7 @@ em {
   width: 100%;
   height: 20em;
   background-size: cover;
+  cursor: pointer;
 }
 
 .reserver1 {
@@ -861,14 +936,15 @@ em {
   background-color: #2B2B2B;
   margin-left: 146px;
   margin-right: 146px;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .restaurant img {
-  width: 53.3%;
+  width: 100%;
 }
 
-ul {
-  width: 50%;
+ul .accueil {
   margin-top: 5em;
 }
 
@@ -880,7 +956,8 @@ li {
 
 .decouverte, .experience, .epanouissement, .experience2 {
   color: #AA8453;
-  margin-bottom: 20px;
+  margin-bottom: 1em;
+  margin-top: 1em;
 }
 
 .titre {
@@ -894,10 +971,12 @@ li {
   background-color: #2B2B2B;
   margin-left: 146px;
   margin-right: 146px;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .bien-être img {
-  width: 53.3%;
+  width: 100%;
 }
 
 .experience {
@@ -905,6 +984,8 @@ li {
   flex-direction: column;
   justify-content: center;
   width: 50%;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .fitness {
@@ -913,10 +994,12 @@ li {
   background-color: #2B2B2B;
   margin-left: 146px;
   margin-right: 146px;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .fitness img {
-  width: 53.3%;
+  width: 100%;
 }
 
 .epanouissement {
@@ -924,6 +1007,8 @@ li {
   flex-direction: column;
   justify-content: center;
   width: 53.5%;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .aquatique {
@@ -932,10 +1017,12 @@ li {
   background-color: #2B2B2B;
   margin-left: 146px;
   margin-right: 146px;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .aquatique img {
-  width: 53.3%;
+  width: 100%;
 }
 
 .experience2 {
@@ -986,24 +1073,26 @@ h3 {
   font-weight: 100;
 }
 
-.grop {
+.grop-accueil {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   border-color: rgb(240, 235, 235);
-  gap: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
+  width: 64.8%;
+  margin-left: 7.6%;
+  margin-right: 7.6%;
+  gap: 12px;
+  float: right;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
 .options {
   grid-column: 1;
-  width: 200px;
   color: #797979;
 }
 
 .petit-dej {
   background-color: #2b2b2b;
-  grid-columns: 2;
   color: #797979;
   padding-left: 30px;
 }

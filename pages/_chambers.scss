@@ -1,8 +1,7 @@
 aside {
     width: 18%;
     float: right;
-    margin-top: -950px;
-
+    margin-top: -1065px;
     font-family: 'Montserrat', Arial, sans-serif; 
     h3 {
         padding: 10px;
@@ -14,8 +13,8 @@ aside {
         }
         li {
             color: $text-lightgray;
-            font-size: x-small;
-            padding: 10px;
+            font-size: 1em;
+            padding: 5px;
  
         }
     }
@@ -32,7 +31,7 @@ aside {
 
  // Taille et spacement pour les textes de la page
     .instructions , .description, .check {
-        width: 80%;
+        width: 70%;
         padding: 30px;
     }
     h3, p, h4, ul {
@@ -83,6 +82,7 @@ aside {
     .check {
         display: flex;
         flex-direction: row;
+        gap: 30%;
         i {
             color: $text-gold;
             padding-right: 10px;
