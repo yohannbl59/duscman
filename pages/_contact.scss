@@ -92,3 +92,26 @@
     display: inline-block;
     margin-right: 20px;
 }
+@media screen and (max-width: 428px) {
+    .sectioncontact{
+        width: 100%;
+        display: block;
+        background-color: #222222;
+    }
+    iframe {
+        margin: auto;
+        width: 90%;
+    }
+    nav {
+        display: none;
+    }
+    .sectioncontact {
+        display: flex;
+        flex-direction: column;
+    }
+    .premierepartie {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
