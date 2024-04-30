@@ -73,10 +73,6 @@ footer {
   .foot .footer-apropos, .foot .footer-contact {
     width: 100%;
   }
-  .foot {
-    display: block;
-    width: 100%;
-  }
 }
 input {
   background-color: transparent;
@@ -312,7 +308,7 @@ nav a {
   font-size: 1em;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1080px) {
   iframe {
     width: 100%;
   }
@@ -324,7 +320,7 @@ nav a {
     display: flex;
     flex-direction: column;
   }
-  nav {
+  nav ul {
     display: none;
   }
   .logo-nav {
@@ -362,56 +358,15 @@ nav a {
     font-size: 2em;
   }
 }
-/* CAROUSEL */
-.backdesc {
-  width: 50%;
-  height: 40em;
-  text-transform: uppercase;
-  transform: translateY(-80%);
-  position: absolute;
-  z-index: 1000;
-  margin-left: 700px;
-  text-align: center;
-}
-
-.carousel img {
-  filter: brightness(0.9);
-}
-
-.desc {
-  width: 100%;
-}
-
-.star {
-  color: #E4A752;
-}
-
-.theme {
-  font-family: "PT Sans", sans-serif;
-  font-weight: bold;
-  margin-top: 1em;
-  letter-spacing: 5px;
-  color: white;
-  font-weight: lighter;
-  text-align: center;
-}
-
-.accroche {
-  font-family: "PT", serif;
-  letter-spacing: 15px;
-  color: white;
-  margin-top: 1em;
-  font-weight: lighter;
-  font-size: 3em;
-}
-
 .carousel {
-  margin: 0;
+  margin: 0 auto;
   position: relative;
   width: 80%;
-  height: 0;
+  height: 5em;
   margin-left: 20%;
   padding-bottom: 40%;
+  transition: 2s;
+  z-index: 2;
 }
 
 .slide_img {
@@ -419,25 +374,19 @@ nav a {
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-size: cover;
+  transition: 2s;
 }
 
 .slide_img img {
   width: 100%;
   height: 100%;
-  filter: brightness(0.8);
 }
 
-#i1,
-#i2,
-#i3,
-#i4,
-#i5 {
+#i1, #i2, #i3, #i4, #i5 {
   display: none;
 }
 
-.prev,
-.next {
+.prev, .next {
   width: 50px;
   height: 40px;
   position: absolute;
@@ -445,6 +394,7 @@ nav a {
   z-index: 1;
   cursor: pointer;
   margin-top: 300px;
+  transition: 1s;
 }
 
 .prev {
@@ -458,15 +408,8 @@ nav a {
 .chevron {
   color: white;
   font-size: 100px;
-  opacity: 60%;
-  transition: 0.5s;
-}
-
-.chevron:hover {
-  color: white;
-  font-size: 100px;
-  opacity: 100%;
-  transition: 0.5s;
+  opacity: 90%;
+  transition: 1s;
 }
 
 #i1:checked ~ #one,
@@ -477,13 +420,6 @@ nav a {
   z-index: 99;
 }
 
-.head {
-  background: transparent;
-  border: white solid 0.1em;
-  margin-right: 40px;
-}
-
-/* FIN CAROUSSEL */
 aside {
   width: 18%;
   float: right;
@@ -1232,26 +1168,4 @@ em {
   margin-top: 20px;
   color: #E4A752;
   margin-left: 2%;
-}
-
-.navigateur .menu-burger {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 200px;
-  width: 50px;
-}
-
-@media screen and (max-width: 900px) {
-  * {
-    margin: 0;
-    padding: 0;
-  }
-  .navigateur {
-    display: none;
-    margin: 0;
-  }
-}
-.navigateur .menu-burger {
-  display: block;
 }/*# sourceMappingURL=main.css.map */

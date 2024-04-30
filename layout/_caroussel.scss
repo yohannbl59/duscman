@@ -9,6 +9,9 @@
     z-index: 1000;
     margin-left: 700px;
     text-align: center;
+    margin-top: -200px;
+    background: transparent;
+
   }
   
   .carousel img {
@@ -124,3 +127,9 @@
   }
   
   /* FIN CAROUSSEL */
+
+  @media screen and (max-width: 428px) {
+    .carousel{
+      display: none;
+    }
+  }
