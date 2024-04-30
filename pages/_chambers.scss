@@ -2,29 +2,23 @@ aside {
     width: 18%;
     float: right;
     margin-top: -1065px;
-    font-family: 'Montserrat', Arial, sans-serif;
-}
-
-h3 {
-    padding: 10px;
-}
-
-ul {
-    list-style: none;
-
-    i {
-        color: $text-gold;
+    font-family: 'Montserrat', Arial, sans-serif; 
+    h3 {
+        padding: 10px;
     }
-
-    li {
-        color: $text-lightgray;
-        font-size: 1em;
-        padding: 5px;
-
+    ul {
+        list-style: none;
+        i {
+            color: $text-gold;
+        }
+        li {
+            color: $text-lightgray;
+            font-size: 1em;
+            padding: 5px;
+ 
+        }
     }
-}
-
-color: $text-white;
+    color: $text-white;  
 }
 
 
@@ -35,44 +29,38 @@ color: $text-white;
     color: $text-lightgray;
     float: right;
 
-    // Taille et spacement pour les textes de la page
-    .instructions , .description , .check {
+ // Taille et spacement pour les textes de la page
+    .instructions , .description, .check {
         width: 70%;
         padding: 30px;
     }
-
     h3, p, h4, ul {
         margin: 10px;
-    }
-
+    }   
     h1, h2, h3, h4 {
-        color: $text-white;
+        color: $text-white;  
         padding: 10px;
-    }
-
+    } 
+    
     .photo-chambre {
         display: flex;
-        //       justify-content: center;
-        align-items: center;
+ //       justify-content: center;
+        align-items: center;  
 
     }
-
     .text-over {
         text-align: center;
         padding-left: 30%;
         position: absolute;
         justify-content: center;
-
         i {
             color: $text-gold;
         }
-
         h2 {
             font-family: sans-serif;
             letter-spacing: 0.3em;
             font-weight: 100;
         }
-
         h1 {
             font-size: 100px;
             font-family: serif;
@@ -81,32 +69,25 @@ color: $text-white;
         }
 
     }
-
     // Style pour les titre de la partie description de la chambre
     .description {
         .Ducsman-gold {
-            color: $text-gold;
-            letter-spacing: 0.7em;
+            color: $text-gold;    
         }
-
-        h1 {
-            letter-spacing: 0.7em;
+        h1, h5 {
+            letter-spacing: 0.7em; 
         }
     }
-
     // Style pour text la partie check-in check-out de la chambre
     .check {
         display: flex;
         flex-direction: row;
         gap: 30%;
-
         i {
             color: $text-gold;
             padding-right: 10px;
         }
-
-        h2,
-        p {
+        h2 , p {
             padding: 10px;
         }
     }
@@ -114,7 +95,7 @@ color: $text-white;
 }
 
 button {
-    background-color: rgb(61, 60, 60);
+    background-color:rgb(61, 60, 60);
     color: $text-white;
     border: none;
     cursor: pointer;
@@ -125,28 +106,39 @@ button {
     letter-spacing: 0.08em;
 }
 
+ .Chambre_Deluxe .fa-bars{
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 30px;
+}
+
 @media screen and (max-width: 428px) {
-    header {
+    .Chambre_Deluxe .fa-bars{
+        display: block;
+    }
+
+    header{
         width: 100%;
         float: none;
     }
 
-    .desc {
+    .desc{
         width: 100%;
     }
 
-    .Chambre_Deluxe {
+    .Chambre_Deluxe{
         width: 100%;
     }
 
-    .Chambre_Deluxe .check {
+    .Chambre_Deluxe .check{
         display: flex;
         flex-direction: column;
         margin-left: 0%;
         float: none;
     }
 
-    .Chambre_Deluxe {
+    .Chambre_Deluxe{
         display: flex;
         flex-direction: column;
         margin-left: auto;
@@ -155,26 +147,24 @@ button {
         padding: 0px;
     }
 
-    .description {
+    .description{
         width: 100%;
         margin-left: auto;
         margin-right: auto;
     }
 
-    aside {
+    aside{
         margin-top: 0;
         float: none;
         width: 100%;
     }
 
-    button {
+    button{
         margin-left: auto;
         margin-right: auto;
     }
 
-    .Chambre_Deluxe .instructions,
-    .Chambre_Deluxe .description,
-    .Chambre_Deluxe .check {
+    .Chambre_Deluxe .instructions, .Chambre_Deluxe .description, .Chambre_Deluxe .check {
         padding: 30px;
-    }
+}
 }

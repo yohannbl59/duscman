@@ -1,146 +1,127 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6ab0564c66.js" crossorigin="anonymous"></script>
     <title>Contact</title>
 </head>
-
 <body>
 
-    <nav id="items">
+    <nav class="navigateur" id="items">
         <div class="logo-nav">
-            <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i
-                class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i> <i class="fa-solid fa-star"></i>
             <br>
             <div id="nomcontact">DUCSMAN</div>
             <div style="color: white; letter-spacing: 3px;">Dormez comme jamais</div>
         </div>
 
-        <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="about.html">A propos</a></li>
-            <li><a href="chambres.html">Chambres & suites</a></li>
-            <li>Restaurant</li>
-            <li>Centre de bien-être</li>
-            <li>Actualité</li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
+         <ul>
+                <a href="index.html"><li>Accueil</li></a>
+                <a href="about.html"></a><li>A propos</li></a>
+                <a href="chambres.html"><li>Chambres & suites</li></a>
+                <li>Restaurant</li>
+                <li>Centre de bien-être</li>
+                <li>Actualité</li>
+                <a href="contact.html"><li>Contact</li></a>
+        </ul> 
 
         <div class="tel">
             <div class="infos">Informations & Réservations</div>
             <i class="fa-solid fa-phone-volume"></i>
             <div class="num">03 20 01 02 03</div>
         </div>
-
+       
     </nav>
 
-    <div class="sectioncontact">
-        <i class="fa-solid fa-bars fa-2x" onclick="clickMenu()"></i>
-        <div class="premierepartie">
+ <div class="sectioncontact">
+    <i class="fa-solid fa-bars fa-2x" onclick="clickMenu()"></i>
+    <div class="premierepartie">
+         
+        <div class="duscmancontact"><h1>Duscman</h1>
+            Nous sommes à votre disposition pour toute question relative à votre séjour ou pour vous préparer le plus luxieux des voyages.
 
-            <div class="duscmancontact">
-                <h1>Duscman</h1>
-                Nous sommes à votre disposition pour toute question relative à votre séjour ou pour vous préparer le
-                plus luxieux des voyages.
+            <div class="infoscontact">
 
-                <div class="infoscontact">
+            <div class="boxinfos1">
+                <div class="icon"><i class="fa-solid fa-phone-volume"></i></div>Informations et réservations <br> 03 20 01 02 03</div>
 
-                    <div class="boxinfos1">
-                        <div class="icon"><i class="fa-solid fa-phone-volume"></i></div>Informations et réservations
-                        <br> 03 20 01 02 03
-                    </div>
+            <div class="boxinfos2">
+                <div class="icon"><i class="fa-solid fa-envelope"></i></div>E-mail <br> info@doscman-group.com</div>
 
-                    <div class="boxinfos2">
-                        <div class="icon"><i class="fa-solid fa-envelope"></i></div>E-mail <br> info@doscman-group.com
-                    </div>
+            <div class="boxinfos3">
+                <div class="icon"><i class="fa-solid fa-location-dot"></i></div>Adresse <br> 23 avenue des Nations Unies <br> 75001 Paris</div>
+        </div>
 
-                    <div class="boxinfos3">
-                        <div class="icon"><i class="fa-solid fa-location-dot"></i></div>Adresse <br> 23 avenue des
-                        Nations Unies <br> 75001 Paris
-                    </div>
-                </div>
+        </div>
+        <div class="restonsencontact"><h1>Restons en contact</h1>
+            <form>
+        <input type="text" placeholder="Votre nom *">
+        <input type="email" placeholder="Votre e-mail *">
+        <input type="tel" placeholder="Votre numéro de téléphone *">
+        <input type="text" placeholder="Sujet *">
+        <textarea name="" id="" placeholder="Message *"></textarea>
+    </form>
+</div>
 
-            </div>
-            <div class="restonsencontact">
-                <h1>Restons en contact</h1>
-                <form>
-                    <input type="text" placeholder="Votre nom *">
-                    <input type="email" placeholder="Votre e-mail *">
-                    <input type="tel" placeholder="Votre numéro de téléphone *">
-                    <input type="text" placeholder="Sujet *">
-                    <textarea name="*" id="message" placeholder="Message *"></textarea>
-                </form>
-            </div>
+<iframe width="600" height="450" style="border:0;filter: grayscale();" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.835382179066!2d2.2889342767561427!3d48.8613494004978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fe39df5463f%3A0xb358c25f43492e83!2s23%20Av.%20des%20Nations%20Unies%2C%2075116%20Paris!5e0!3m2!1sfr!2sfr!4v1713953319359!5m2!1sfr!2sfr"></iframe>
 
-            <iframe width="600" height="450" style="border:0;filter: grayscale(100%);" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.835382179066!2d2.2889342767561427!3d48.8613494004978!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66fe39df5463f%3A0xb358c25f43492e83!2s23%20Av.%20des%20Nations%20Unies%2C%2075116%20Paris!5e0!3m2!1sfr!2sfr!4v1713953319359!5m2!1sfr!2sfr"></iframe>
+</div>
+</div>
+<!-- Début de pied de page -->
 
+<footer>
+    <div class="foot">
+
+<!-- Texte à propos-->
+
+        <div class="footer-apropos">
+            <h3>A propos de notre hôtel</h3>
+            <p> Le seul hôtel 5 étoile de Paris. Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Architecto atque suscipit a et facilis, quis dolore earum 
+                quod fuga, eos optio! Nobis eligendi quidem totam veritatis, 
+                quibusdam accusantium dignissimos amet.</p>
+        </div>
+
+<!-- Infos pour Contact-->
+        <div class="footer-contact">
+            <h3>Contact</h3>
+            <p> 23 avenue des Nations Unies <br>
+                75001 Paris
+            </p>
+            <h4> <i class="fa-solid fa-phone-volume"></i> 03 20 01 02 03</h4>
+            <p class="email-ducsman">info@ducsman.com</p>
+<!-- liste de icones reseaux sociaux -->
+            <ul class="media-social">
+                <li> <a class="lien-icone" href="https://www.instagram.com/" target="_blank"> <i class="fab fa-instagram"></i></a></li> 
+                <li> <a class="lien-icone" href="https://twitter.com/" target="_blank"> <i class="fab fa-twitter"></i></a></li>                    
+                <li> <a class="lien-icone" href="https://www.youtube.com/" target="_blank"> <i class="fab fa-youtube"></i></a></li>                    
+                <li> <a class="lien-icone" href="https://www.facebook.com/login/" target="_blank"> <i class="fab fa-facebook-f"></i></a></li>
+                <li> <a class="lien-icone" href="https://www.pinterest.fr/pinterestfr/" target="_blank"> <i class="fab fa-pinterest-p"></i></a></li>
+            </ul>
         </div>
     </div>
-    <!-- Début de pied de page -->
+<!-- Dernier ligne avec mentions légales du pied de page -->
+    <div class="mentions-legales">
+        <h6> Mentions légales - Conditiond Générales de Ventes - Politique de confidentialité
+            © - Copyright 2024 - Ducsman Group</h6>
+    </div>
+    <div>
 
-    <footer>
-        <div class="foot">
-
-            <!-- Texte à propos-->
-
-            <div class="footer-apropos">
-                <h3>A propos de notre hôtel</h3>
-                <p> Le seul hôtel 5 étoile de Paris. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                    Architecto atque suscipit a et facilis, quis dolore earum
-                    quod fuga, eos optio! Nobis eligendi quidem totam veritatis,
-                    quibusdam accusantium dignissimos amet.</p>
-            </div>
-
-            <!-- Infos pour Contact-->
-            <div class="footer-contact">
-                <h3>Contact</h3>
-                <p> 23 avenue des Nations Unies <br>
-                    75001 Paris
-                </p>
-                <h4> <i class="fa-solid fa-phone-volume"></i> 03 20 01 02 03</h4>
-                <p class="email-ducsman">info@ducsman.com</p>
-                <!-- liste de icones reseaux sociaux -->
-                <ul class="media-social">
-                    <li> <a class="lien-icone" href="https://www.instagram.com/" target="_blank"> <i
-                                class="fab fa-instagram"></i></a></li>
-                    <li> <a class="lien-icone" href="https://twitter.com/" target="_blank"> <i
-                                class="fab fa-twitter"></i></a></li>
-                    <li> <a class="lien-icone" href="https://www.youtube.com/" target="_blank"> <i
-                                class="fab fa-youtube"></i></a></li>
-                    <li> <a class="lien-icone" href="https://www.facebook.com/login/" target="_blank"> <i
-                                class="fab fa-facebook-f"></i></a></li>
-                    <li> <a class="lien-icone" href="https://www.pinterest.fr/pinterestfr/" target="_blank"> <i
-                                class="fab fa-pinterest-p"></i></a></li>
-                </ul>
-            </div>
-        </div>
-        <!-- Dernier ligne avec mentions légales du pied de page -->
-        <div class="mentions-legales">
-            <h6> Mentions légales - Conditiond Générales de Ventes - Politique de confidentialité
-                © - Copyright 2024 - Ducsman Group</h6>
-        </div>
-
-    </footer>
-    // JavaScript pour faire apparaitre le menu navigation avec un click sur icon menu Burguer
+</footer>
+<!-- JavaScript  pour faire apparaitre le menu navigation avec un click sur icon menu Burguer -->
     <script>
         function clickMenu() {
             if (items.style.display == 'block') {
-                items.style.display = 'none'
+                items.style.display= 'none'
             } else {
-                items.style.display = 'block'
-            }
+                items.style.display = 'block'              
+            }        
         }
     </script>
 </body>
-
 </html>

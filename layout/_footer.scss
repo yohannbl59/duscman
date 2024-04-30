@@ -1,7 +1,6 @@
 footer {
-    background-color: $bg-black;
+    background-color: $bg-black;  
 }
-
 .foot {
     float: right;
     width: 100%;
@@ -9,92 +8,74 @@ footer {
     color: $text-lightgray;
     display: flex;
     flex-direction: row;
-
-    h3,
-    p,
-    h4,
-    ul {
+    h3, p, h4, ul {
         margin: 10px;
-    }
-
-    h3,
-    h4 {
-        color: $text-white;
-    }
-
+    }   
+    h3, h4 {
+        color: $text-white;  
+    } 
     .footer-apropos {
         width: 50%;
         padding: 10px;
         display: flex;
         flex-direction: column;
-        justify-content: center;
-
+        justify-content: center; 
+     
     }
-
-    .footer-contact {
-        width: 40%;
+    .footer-contact{
+        width: 50%;
         padding: 10px;
-
         .email-ducsman {
-            color: $text-white;
+            color: $text-white; 
             text-decoration: underline;
             text-decoration-color: $text-gold ;
         }
-
         display: flex;
         flex-direction: column;
         justify-content: center;
-
         ul {
             display: flex;
             flex-direction: row;
-
             li {
                 margin: 10px;
             }
         }
     }
-
+    
     a {
         color: $text-white;
         text-decoration: none;
         transition: .4s
     }
-
     ul {
         list-style: none;
-    }
+    }  
 
 }
-
-.mentions-legales {
+.mentions-legales{
     h6 {
         width: 50%;
         margin: auto;
         padding: 30px;
         color: $text-white;
     }
-
     background-color: $bg-lightblack;
-
     .copyright {
-        color: $text-lightgray;
+        color:$text-lightgray;
     }
 }
 
 @media screen and (max-width: 428px) {
-    .foot {
+    .foot{
         flex-direction: column;
 
-        .footer-apropos,
-        .footer-contact {
+        .footer-apropos, .footer-contact{
             width: 100%;
 
         }
     }
-
     .foot {
-        display: block;
+        display: flex;
         width: 100%;
     }
 }

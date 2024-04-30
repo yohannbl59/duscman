@@ -513,11 +513,29 @@ em {
     width: 50px;
 }
 
+.fa-bars{
+    font-size: 40px;
+    color: white;
+    display: inline-block;
+}
+
+.fa-bars:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 428px) {
     * {
         margin: 0;
         padding: 0;
     }
+
+    .expdeluxetext{
+        margin: 20px;
+        width: 90%;
+    }
+
     .navigateur {
         display: none;
         margin: 0;
@@ -529,10 +547,6 @@ em {
   
       .section2{
         width: 100%;
-      }
-
-      .starexpdeluxe{
-        margin-top: 0px;
       }
 
       .gridback{
@@ -551,7 +565,6 @@ em {
         width: 90%;
         margin-left: 0px;
         margin-left: auto;
-        margin-right: auto;
       }
 
       .img4{
@@ -560,7 +573,6 @@ em {
         width: 100%;
         margin-left: 0px;
         margin-left: auto;
-        margin-right: auto;
       }
 
       .img5{
@@ -569,7 +581,6 @@ em {
         width: 100%;
         margin-left: 0px;
         margin-left: auto;
-        margin-right: auto;
         margin-bottom: 2em;
       }
 
@@ -585,7 +596,6 @@ em {
         flex-direction: column;
         background-color: #2B2B2B;
         margin-left: auto;
-        margin-right: auto;
         margin-top: 1em;
         margin-bottom: 1em;
         width: 90%;
@@ -635,9 +645,61 @@ em {
         margin-top: 1em;
         margin-left: 0.2em;
     }
-      
-}
+    .fa-bars{
+        display: block;
+        position: fixed;
+    }
 
-.navigateur .menu-burger {
-    display: block;
+    .bien-être{
+        width: 90%;
+        margin-left: auto;
+    }
+
+    .fitness{
+        width: 90%;
+        margin-left: auto;
+        flex-direction: column;
+    }
+
+    .aquatique{
+        width: 90%;
+        margin-left: auto;
+        flex-direction: column;
+    }
+
+    .grop-accueil{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .options, .petit-dej, .coffre{
+        width: 100%;
+        margin-left: auto;
+        float: none;
+        
+    }
+
+    .Services{
+        float: none;
+        width: 90%;
+        flex-direction: column;
+    }
+
+    .conteneur {
+        display: flex;
+        flex-direction: column;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr ;
+        gap: 10px;
+      }
+
+    .reserver1{
+        display: none;
+    }
+
+    .reserver2{
+        display: none;
+    }
+      
 }
